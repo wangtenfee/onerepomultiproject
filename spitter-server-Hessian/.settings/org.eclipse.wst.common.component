@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="spitter-server-Hessian">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="spitter-servcie-common.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spitter-servcie-common/spitter-servcie-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spitter-domain-plain.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spitter-domain-plain/spitter-domain-plain">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="spitter-server-Hessian"/>
+        <property name="java-output-path" value="/spitter-server-Hessian/target/classes"/>
+    </wb-module>
+</project-modules>
