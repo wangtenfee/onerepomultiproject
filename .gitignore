@@ -1,2 +1,5 @@
 /RemoteSystemsTempFiles/
 /.metadata/
+/bin/
+/target/
+/.recommenders/
